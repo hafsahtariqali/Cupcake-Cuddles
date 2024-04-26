@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li, a, button{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: beige;
+  text-decoration: none;
+}
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 10%;
+  background-color: #CC9966
+}
+
+.nav_links{
+  list-style: none;
+}
+
+
+.nav_links, li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+
+.nav_links, li, a{
+  transition: all 0.3s ease 0s;
+}
+
+
+.nav_links, li, a:hover{
+  color: #6F4E37;
+}
+
+
+.buttonmain{
+  padding: 12px 30px;
+  background-color: #66311E;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-left: 50px;
+}
+
+
+.buttonmain:hover{
+  background-color: #4A0404;
+}
+
+body{
+  background-color: #FFF5EC
+}
+
+.title h1{
+  font-family: "League Spartan", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  letter-spacing: -3px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  color: #4A0404;
+  text-align: center;
+}
+
+.title p{
+  font-family: "Alegreya", serif;
+  padding: 15px;
+  line-height: 1.25;
+  text-align: center;
+  font-weight: 100;
+  font-size: 17px;
+  color: #0C090A;
+  margin-bottom: 60px;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.menu-column{
+  width: 25%;
+}
+
+.menu-column h4{
+  font-size: 25px;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 800;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.single-menu{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+.single-menu img{
+  border-radius: 50%;
+  max-width: 110px;
+  margin-right: 20px;
+  border: 1px dashed #ddd;
+  padding: 3px;
+}
+
+.menu-content h5{
+  font-family: "Roboto", serif;
+  font-size: 15px;
+  font-weight: 800;
+  margin-bottom: 5px;
+  color: #6E260E;
+}
+
+.menu-content h5 span{
+  color: #4A0404;
+  float: right;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.menu-content p{
+  font-size: 16px;
+  font-weight: 200;
+}
+
+footer .containers{
+  background-color: #E5AA70;
+}
+
+.rows{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 100px;
+}
+
+.footer-col ul{
+  list-style: none;
+}
+
+.footer-col h4{
+  color: #482113 ;
+  letter-spacing: -1px;
+  font-family: "League Spartan", sans-serif;
+  font-size: 25px;
+  font-weight: 700px;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.footer-col h4::before{
+  content: '';
+  width: 70px;
+  height: 2px;
+  position: absolute;
+  background-color: black;
+  bottom: -10px;
+}
+
+.footer-col ul li{
+  padding: 8px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-col ul li a{
+  color: beige;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  transition: all 0.3s ease 0s;
+}
+
+.footer-col ul li a:hover{
+  color: #6F4E37;
+}
+
+.map{
+  border: 2px solid #482113; 
+  border-radius: 8px;
+}
+
+.footer-col input{
+  border: 1px solid black;
+  width: 250px;
+  height: 45px;
+  display: block;
+  margin: 20px 0px;
+  font-family: "Alegreya", serif;
+}
+
+.footer-col .InputSubmit{
+  background-color:#66311E ;
+  color: beige;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800px;
+  cursor: pointer;
+}
+
+.container2{
+  height: 70px;
+  background-color: #CC9966;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.row2{
+  display: flex;
+  min-height: 100%;
+  justify-content: space-between;
+  padding: 25px 0 0 35px;
+}
+
+.row2 hr{
+  opacity: 0.7;
+}
+
+.row2 .socials i{
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin: 0 15px;
+  transition: 0.5s;
+}
+
+.row2 .socialIcons i:hover{
+  color: #6F4E37;
+}
+
+footer .para{
+  font-family: "Alegreya", serif;
+  color: beige;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.extra-info{
+  font-family: "League Spartan", sans-serif;
+  text-align: center;
+  color: #66311E;
+  font-weight: 800;
+  margin: 50px;
+  margin-bottom: 100px;
+}
